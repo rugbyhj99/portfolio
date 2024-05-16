@@ -23,9 +23,9 @@ const HomepageProjectList = () => {
         {
             projectList.map(function(project, index){
                 return (
-                    <div className='list-container'>
-                        <div>
-                            
+                    <div className='list-container' key={index}>
+                        <div className='list-img'>
+                            <img src={project.img} alt={project.title} />
                         </div>
                         <div className='list-content'>
                             <h3>{project.type}</h3>
