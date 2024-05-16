@@ -1,4 +1,4 @@
-.list-container { display:flex; gap: 1.0rem; max-width: 1440px; padding-bottom: 3.0rem;}
+.list-container { display:flex; gap: 2.0rem; max-width: 1440px; padding-bottom: 6.0rem;}
 .list-img { width: 720px; display:flex; justify-content: center; align-items: center;}
 .list-img img { width: 550px; }
 .list-content { display:flex; max-width: 720px; flex-direction: column; gap: 1.0rem; justify-content: center; }
