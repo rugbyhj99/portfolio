@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+*{ list-style: none; text-decoration: none; font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif; margin:0; padding: 0; background: rgb(24,24,24); color:white;}
+/* reset */
+:root {
+    --fz12: 1.2rem;
+    --fz14: 1.4rem;
+    --fz16: 1.6rem;
+    --fz18: 1.8rem;
+    --fz20: 2rem;
+    --fz22: 2.2rem;
+    --fz24: 2.4rem;
+    --fz26: 2.6rem;
+    --fz28: 2.8rem;
+    --fz30: 3rem;
+    --fz32: 3.2rem;
+    --fz34: 3.4rem;
+    --fz36: 3.6rem;
+    --fz38: 3.8rem;
+    --fz40: 4rem;
+    --fz48: 4.8rem;
+    --fz80: 8rem;
+    --pointColorLight: #ffccc2;
+    --pointColor: #e2725b;
+    --pointColorDark: #bf351a;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

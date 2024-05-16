@@ -1,0 +1,8 @@
+.list-container { display:flex; gap: 1.0rem; }
+.list-content { display:flex; max-width: 700px; flex-direction: column; gap: 1.0rem; padding-bottom: 3.0rem; }
+.list-content h3 { color:rgb(244, 97, 97) }
+.list-content h2 { font-size: var(--fz18);}
+.list-content p { font-size: 1.2rem; }
+
+.list-content-shortcut { display: flex; gap: 1.0rem;}
+.list-content-shortcut div img { width: 45px;}

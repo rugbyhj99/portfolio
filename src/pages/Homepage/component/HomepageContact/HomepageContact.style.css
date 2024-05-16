@@ -1,0 +1,6 @@
+.contact-container { display: flex; flex-direction: column; height: 100vh; justify-content: center; align-items: center; gap: 5.0rem; }
+.contact-title h1 { font-size: var(--fz48); }
+.contact-content { display: flex; align-items: center; gap: 3.0rem;}
+.contact-content div p { color: rgb(238, 97, 97);  text-align: center; padding-bottom: 1.0rem; font-size: 1.3rem; font-weight: bold;}
+.contact-content ul { display: flex; flex-direction: column; gap: 2.0rem; }
+.contact-content ul li { font-size: 1.5rem;}
