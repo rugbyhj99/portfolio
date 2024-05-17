@@ -13,7 +13,6 @@ const Homapage = () => {
       <HomepageAbout/>
       <HomepageProject/>
       <HomepageContact/>
-
     </div>
   )
 }

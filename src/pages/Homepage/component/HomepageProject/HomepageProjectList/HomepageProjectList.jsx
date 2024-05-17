@@ -7,7 +7,7 @@ const HomepageProjectList = () => {
     const [ projectList, setProjectList ] = useState([]);
 
     const getProjects = async() => {
-        let url = `https://my-json-server.typicode.com/rugbyhj99/portfolio`
+        let url = `https://my-json-server.typicode.com/rugbyhj99/portfolio/project`
         let response = await fetch(url);
         let data = await response.json();
         setProjectList(data);
@@ -33,10 +33,14 @@ const HomepageProjectList = () => {
                             <p>{project.content}</p>
                             <div className='list-content-shortcut'>
                                 <div>
-                                    <img src={github}/>
+                                    <a href={project.giturl} >
+                                        <img src={github} alt="GitHub" />
+                                    </a>                                    
                                 </div>
                                 <div>
-                                    <img src={chrome}/>
+                                    <a href={project.url}>
+                                        <img src={chrome} alt="Live Site"/>
+                                    </a>                                    
                                 </div>
                             </div>
                         </div>
