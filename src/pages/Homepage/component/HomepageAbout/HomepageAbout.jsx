@@ -22,7 +22,7 @@ const HomepageAbout = () => {
         <h2><span className='about-content-title-point1'>D</span>o More:</h2>
         <h2>[<span className='about-content-title-point2'>P</span>hrase] 미래를 위한 새로운 <span className='about-content-title-point3'>도전</span>에 과감히 더 나아가다.</h2>
       </div>
-      <div className='about-contents' data-aos="fade-left" data-aos-delay="500">
+      <div className='about-contents' data-aos="fade-left" data-aos-delay="700">
         <div className='about-content1'>
           <img src={me}/>
         </div>
