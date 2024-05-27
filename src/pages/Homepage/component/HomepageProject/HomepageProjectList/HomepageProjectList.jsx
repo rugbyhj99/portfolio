@@ -2,8 +2,16 @@ import React, { useEffect, useState } from 'react'
 import './HomepageProjectList.style.css';
 import github from '../../../image/github.webp';
 import chrome from '../../../image/chrome_os.svg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const HomepageProjectList = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1500 // 애니메이션 지속 시간 (밀리초)
+        });
+    }, []); // 초기 렌더링 시 한 번만 호출
+
     const [ projectList, setProjectList ] = useState([]);
 
     const getProjects = async() => {
@@ -23,7 +31,7 @@ const HomepageProjectList = () => {
         {
             projectList.map(function(project, index){
                 return (
-                    <div className='list-container' key={index}>
+                    <div className='list-container' key={index} data-aos="zoom-in-up">
                         <div className='list-img'>
                             <img src={project.img} alt={project.title} />
                         </div>

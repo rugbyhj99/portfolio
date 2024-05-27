@@ -1,7 +1,7 @@
 import React from 'react'
 import './AppLayout.style.css'
 import logo from './logo.png'
-import { Outlet, Link } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 
 const AppLayout = () => {
   return (
@@ -19,7 +19,7 @@ const AppLayout = () => {
                         <a href='#'>About</a>
                     </li>                    
                     <li>
-                        <a href='#'>Project</a>
+                        <a href='#'>Project</a>                        
                     </li>
                     <li>
                         <a href='#'>Contact</a>

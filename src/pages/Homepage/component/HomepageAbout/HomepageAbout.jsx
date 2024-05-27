@@ -1,18 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './HomepageAbout.style.css';
 import me from '../../image/me.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const HomepageAbout = () => {
+
+  useEffect(() => {
+    AOS.init({
+        duration: 2000 // 애니메이션 지속 시간 (밀리초)
+    });
+}, []); // 초기 렌더링 시 한 번만 호출
+  
   return (
-    <section className='about-container'>
+    <section className='about-container' >
       <div className='about-title'>
         <h1>About</h1>
       </div>
-      <div className='about-content-title'>
+      <div className='about-content-title' data-aos="fade-left" data-aos-delay="0">
         <h2><span className='about-content-title-point1'>D</span>o More:</h2>
         <h2>[<span className='about-content-title-point2'>P</span>hrase] 미래를 위한 새로운 <span className='about-content-title-point3'>도전</span>에 과감히 더 나아가다.</h2>
       </div>
-      <div className='about-contents'>
+      <div className='about-contents' data-aos="fade-left" data-aos-delay="500">
         <div className='about-content1'>
           <img src={me}/>
         </div>

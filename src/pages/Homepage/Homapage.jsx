@@ -8,7 +8,7 @@ import HomepageContact from './component/HomepageContact/HomepageContact.jsx'
 const Homapage = () => {
   
   return (
-    <div >
+    <div className='homepage-container'>
       <HomepageMain/>
       <HomepageAbout/>
       <HomepageProject/>
