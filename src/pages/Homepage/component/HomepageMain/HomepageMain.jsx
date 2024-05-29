@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './HomepageMain.style.css';
+import { throttle } from 'lodash';
 
 const HomepageMain = () => {
   const [offsetY, setOffsetY] = useState(0);
 
   useEffect(() => {
-    const handleScroll = () => {
+    const handleScroll = throttle(() => {
       setOffsetY(window.scrollY);
-    };
+    }, 100); // 100ms마다 실행
 
     window.addEventListener('scroll', handleScroll);
 
