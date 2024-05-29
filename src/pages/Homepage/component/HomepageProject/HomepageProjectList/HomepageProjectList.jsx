@@ -36,8 +36,8 @@ const HomepageProjectList = () => {
                             <img src={project.img} alt={project.title} />
                         </div>
                         <div className='list-content'>
-                            <h3>{project.type}</h3>
                             <h2>{project.title}</h2>
+                            <h3>{project.type}</h3>                            
                             <p>{project.content}</p>
                             <div className='list-content-shortcut'>
                                 <div>

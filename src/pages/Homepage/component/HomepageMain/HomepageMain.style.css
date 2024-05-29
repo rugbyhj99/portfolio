@@ -1,4 +1,4 @@
-.main-container{ display:flex; justify-content: center;  align-items: center; background: rgb(24,24,24); height: 180vh;  animation: slide 14s ease-in-out infinite; background-size: 400% 400%;  width:100%; flex-direction: column; gap: 1.0rem; }
+.main-container { display:flex; justify-content: center;  align-items: center; background: rgb(24,24,24); height: 180vh;  animation: slide 14s ease-in-out infinite; background-size: 400% 400%;  width:100%; flex-direction: column; gap: 1.0rem; }
 .main-container h2, .main-container p { transition: transform 0.3s ease-out; }
 .main-container h2 { font-size: 14.0rem; font-weight: bold; color: white; }
 .main-container p { font-size: 14.0rem; color:white; font-weight: 300; }
@@ -13,4 +13,13 @@
       background-position: 100% 50%;
     }
   }
+
+@media (max-width: 992px) {
   
+  .main-container h2, .main-container p { font-size: 8.0rem; }
+  }  
+  
+@media (max-width: 576px) {
+  .main-container { height: 120vh; }
+  .main-container h2, .main-container p { font-size: 4.0rem; }
+  }  

@@ -15,3 +15,26 @@
 
 .about-content2-box { display: flex; gap: 2.0rem; justify-content: center; padding-top: 2.0rem; }
 .about-content2-box > li { padding: 0.5rem 1.0rem ; border: 2px solid #ffffff; border-radius: 5px; font-size: 1.0rem;  }
+
+
+@media (max-width: 992px) {
+    .about-container { height: 120vh;} 
+    .about-content-title { flex-direction: column; align-items: center; }
+    .about-content-title h2 { font-size: var(--fz20); }
+    .about-contents { flex-direction: column; }
+    .about-content2 { text-align: center;}    
+  }
+
+@media (max-width: 567px) {
+    .about-container { height: 100vh;}
+    .about-title { padding-bottom: 3.0rem; }
+    .about-title h1 { font-size: var(--fz24); }
+    .about-content-title h2 { font-size: var(--fz12); }
+    .about-content1 img { width: 200px; }
+    .about-content2 { padding-top: 1.0rem;}
+    .about-content2 p { font-size: 0.8rem; font-weight: 600;}
+    .about-content2-box { gap: 1.0rem; }
+    .about-content2-box > li { font-size: 0.7rem; }
+    
+    
+}

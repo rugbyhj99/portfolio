@@ -10,22 +10,7 @@ const AppLayout = () => {
             <div className='navbar-logo'>
                 <img src={logo} alt='logo'/>
             </div>
-            <div className="navbar-menu">
-                <ul>
-                    <li>
-                        <a href='#'>Homepage</a>
-                    </li>
-                    <li>
-                        <a href='#'>About</a>
-                    </li>                    
-                    <li>
-                        <a href='#'>Project</a>                        
-                    </li>
-                    <li>
-                        <a href='#'>Contact</a>
-                    </li>
-                </ul>
-            </div>
+            
         </nav>
         {/* 라우터 안에 있는 자손 가져오기 Outlet */}
         <Outlet/>
