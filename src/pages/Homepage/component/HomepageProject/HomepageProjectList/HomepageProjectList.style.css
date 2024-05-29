@@ -10,15 +10,16 @@
 .list-content-shortcut div img { width: 45px;}
 
 @media (max-width: 992px) {
-    .list-container { flex-direction: column;}
-    .list-content { align-items: center;}
+    .list-container { flex-direction: column; }
+    .list-content { align-items: center; }
+    .list-content-shortcut { padding-top: 1.0rem; }
   }
 
 @media (max-width: 576px) {
-    .list-img img { width: 370px; }
-    .list-content { max-width: 370px;}
-    .list-content h2 { font-size: var(--fz14);}
-    .list-content p { font-size: 0.9rem; }
+    .list-img img { width: 300px; }
+    .list-content { max-width: 300px; }
+    .list-content h2 { font-size: var(--fz14); }
+    .list-content p { font-size: 0.8rem; }
     .list-content-shortcut div img { width: 30px; }
 
 }  

@@ -26,15 +26,15 @@
   }
 
 @media (max-width: 567px) {
-    .about-container { height: 100vh;}
+    .about-container { height: 120vh;}
     .about-title { padding-bottom: 3.0rem; }
     .about-title h1 { font-size: var(--fz24); }
-    .about-content-title h2 { font-size: var(--fz12); }
+    .about-content-title h2 { font-size: 1.0rem; }
     .about-content1 img { width: 200px; }
-    .about-content2 { padding-top: 1.0rem;}
-    .about-content2 p { font-size: 0.8rem; font-weight: 600;}
+    .about-content2 { padding-top: 1.0rem; }
+    .about-content2 p { font-size: 0.7rem; font-weight: 600;}
     .about-content2-box { gap: 1.0rem; }
-    .about-content2-box > li { font-size: 0.7rem; }
+    .about-content2-box > li { font-size: 0.6rem; }
     
     
 }
