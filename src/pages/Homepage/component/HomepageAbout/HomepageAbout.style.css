@@ -3,6 +3,7 @@
 .about-title h1 { font-size: var(--fz48); }
 .about-content-title { display: flex; gap: 1.0rem; }
 .about-content-title h2 { font-size: var(--fz30); }
+.about-content-title-contents br { display: none; }
 .about-content-title-point1 { color: #badbff; }
 .about-content-title-point2 { color: #c2ffe3; }
 .about-content-title-point3 { color: #ff9d9d; }
@@ -28,13 +29,14 @@
 @media (max-width: 567px) {
     .about-container { height: 120vh;}
     .about-title { padding-bottom: 3.0rem; }
-    .about-title h1 { font-size: var(--fz24); }
-    .about-content-title h2 { font-size: 1.0rem; }
+    .about-title h1 { font-size: var(--fz26); }
+    .about-content-title h2 { font-size: var(--fz20); }
+    .about-content-title-contents { text-align: center; }
+    .about-content-title-contents br { display: block; content: ""; margin-bottom: 0.5rem; }
+    .about-content-title-point4 { display: none; }
     .about-content1 img { width: 200px; }
     .about-content2 { padding-top: 1.0rem; }
-    .about-content2 p { font-size: 0.7rem; font-weight: 600;}
-    .about-content2-box { gap: 1.0rem; }
-    .about-content2-box > li { font-size: 0.6rem; }
-    
-    
+    .about-content2 p { font-size: var(--fz12); font-weight: 600; margin-bottom: 0.25rem;}
+    .about-content2-box { gap: 0.5rem; }
+    .about-content2-box > li { font-size: 1.0rem; }    
 }

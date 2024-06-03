@@ -21,5 +21,5 @@
   
 @media (max-width: 576px) {
   .main-container { height: 140vh; }
-  .main-container h2, .main-container p { font-size: 4.0rem; }
+  .main-container h2, .main-container p { font-size: 3.5rem; }
   }  
