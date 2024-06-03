@@ -19,7 +19,7 @@
     .list-img img { width: 300px; }
     .list-content { max-width: 350px; }
     .list-content h2 { font-size: var(--fz14); }
-    .list-content p { font-size: 1.0rem; }
+    .list-content p { font-size: var(--fz10); }
     .list-content-shortcut div img { width: 30px; }
 
 }  
