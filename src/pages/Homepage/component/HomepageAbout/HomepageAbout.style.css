@@ -37,6 +37,6 @@
     .about-content1 img { width: 200px; }
     .about-content2 { padding-top: 1.0rem; }
     .about-content2 p { font-size: var(--fz12); font-weight: 600; margin-bottom: 0.25rem;}
-    .about-content2-box { gap: 0.5rem; }
-    .about-content2-box > li { font-size: 1.0rem; }    
+    .about-content2-box { gap: 0.25rem; }
+    .about-content2-box > li { font-size: 0.85rem; }    
 }
