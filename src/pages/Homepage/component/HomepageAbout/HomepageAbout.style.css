@@ -12,6 +12,7 @@
 .about-content1 img { width: 300px; }
 .about-content2 { padding-top: 2.0rem;}
 .about-content2 p { font-size: var(--fz12); padding-left: 1.0rem; margin-bottom: 0.5rem;}
+.about-content2 p br { display: none; }
 .about-content2-last-p { padding-bottom: 2.0rem; border-bottom: 2px solid white;}
 
 .about-content2-box { display: flex; gap: 2.0rem; justify-content: center; padding-top: 2.0rem; }
@@ -37,6 +38,7 @@
     .about-content1 img { width: 200px; }
     .about-content2 { padding-top: 1.0rem; }
     .about-content2 p { font-size: var(--fz12); font-weight: 600; margin-bottom: 0.25rem;}
-    .about-content2-box { gap: 0.25rem; }
-    .about-content2-box > li { font-size: 0.85rem; padding: 0.3rem 1.0rem; }    
+    .about-content2 p br { display: block; content: ""; }
+    .about-content2-box { display: flex;  gap: 1.0rem;  flex-wrap: wrap; justify-content: center; max-width: 350px; }
+    .about-content2-box > li { flex: 0 1 calc(20% - 0.5rem);  }  
 }

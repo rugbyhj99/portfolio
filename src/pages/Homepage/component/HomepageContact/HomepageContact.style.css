@@ -12,6 +12,6 @@
 @media (max-width: 576px) {
     .contact-title h1 { font-size: var(--fz24); }
     .contact-content div p { font-size: var(--fz12); }
-    .contact-content ul li { font-size: var(--fz14);}
+    .contact-content ul li { font-size: var(--fz12);}
 
 }
