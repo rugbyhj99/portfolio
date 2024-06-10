@@ -6,6 +6,6 @@
 .project-content ul li { padding: 0.5rem 1.0rem; border: 1px solid #ffffff; border-radius: 5px; }
 
 @media (max-width:576px) {
-    .project-title { padding-top: 6.0rem; }
+    .project-title { padding-top: 9.0rem; }
     .project-title h1 { font-size: var(--fz24); }   
 }
